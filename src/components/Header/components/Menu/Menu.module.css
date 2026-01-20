@@ -1,0 +1,12 @@
+/* .navigation {
+} */
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.menu-item {
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}

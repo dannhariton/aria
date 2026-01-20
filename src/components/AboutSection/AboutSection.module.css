@@ -1,0 +1,11 @@
+.about {
+  display: flex;
+  gap: 18px;
+  margin: 80px 0;
+}
+
+@media (min-width: 728px) {
+  .about {
+    padding: 24px 60px 64px;
+  }
+}

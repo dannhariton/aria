@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 647px;
+  background-color: #3a6150;
+  margin-bottom: 16px;
+  padding: 24px 24px 36px 24px;
+  border-radius: 2px;
+  gap: 18px;
+}
+
+.image-container {
+  width: 180px;
+  aspect-ratio: 1/1.35;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 70%;
+  height: 100%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  line-height: 150%;
+}

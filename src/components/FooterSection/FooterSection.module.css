@@ -1,0 +1,145 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter {
+  color: #000000;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 145%;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  font-size: 18px;
+  line-height: 145%;
+  color: #111111;
+}
+
+.input::placeholder {
+  color: rgba(17, 17, 17, 0.5);
+  font-weight: 400;
+}
+
+.input:focus {
+  outline-color: #000000;
+}
+
+.subscribe-button {
+  background-color: #3a6150;
+  color: #ffffff;
+  border: none;
+  padding: 16px 58px;
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #335540;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 8px;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address,
+.email {
+  color: #00000099;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.partners {
+  display: flex;
+  gap: 36px;
+  margin-top: 32px;
+}
+
+.bottom-bar {
+  display: flex;
+  margin: 24px 0;
+  width: 100%;
+  position: relative;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.policies {
+  display: flex;
+  gap: 24px;
+  position: absolute;
+  right: 0;
+}
+
+.policy {
+  color: #11111180;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media (min-width: 728px) {
+  .footer {
+    padding: 24px 60px;
+  }
+}
