@@ -33,61 +33,74 @@ export function ContactSection() {
         <form className={styles.form}>
           <div className={styles.row}>
             <div className={styles["input-container"]}>
-              <label className={styles.label} htmlFor="first-name">
+              <label className={styles.label} htmlFor="first-name-field">
                 First Name
               </label>
-              <input className={styles.input} type="text" name="first-name" required />
+              <input
+                className={styles.input}
+                type="text"
+                id="first-name-field"
+                name="first-name"
+                required
+              />
             </div>
             <div className={styles["input-container"]}>
-              <label className={styles.label} htmlFor="last-name">
+              <label className={styles.label} htmlFor="last-name-field">
                 Last Name
               </label>
-              <input className={styles.input} type="text" name="last-name" required />
+              <input
+                className={styles.input}
+                type="text"
+                id="last-name-field"
+                name="last-name"
+                required
+              />
             </div>
           </div>
           <div className={styles.row}>
             <div className={styles["input-container"]}>
-              <label className={styles.label} htmlFor="email">
+              <label className={styles.label} htmlFor="email-field">
                 Email
               </label>
               <input
                 className={styles.input}
                 type="email"
+                id="email-field"
                 name="email"
                 placeholder="example@gmail.com"
               />
             </div>
             <div className={styles["input-container"]}>
-              <label className={styles.label} htmlFor="phone">
+              <label className={styles.label} htmlFor="phone-field">
                 Phone Number
               </label>
-              <input className={styles.input} type="tel" name="phone" />
+              <input className={styles.input} type="tel" id="phone-field" name="phone" />
             </div>
           </div>
           <div className={styles.roles}>
             <span className={styles.role}>
-              <input type="radio" name="ui-dev" />
-              <label htmlFor="ui-dev">UI Developer</label>
+              <input type="radio" name="ui-dev" id="ui-dev-option" />
+              <label htmlFor="ui-dev-option">UI Developer</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="ui-ux" />
-              <label htmlFor="ui-ux">UI/UX Developer</label>
+              <input type="radio" name="ui-ux" id="ui-ux-option" />
+              <label htmlFor="ui-ux-option">UI/UX Developer</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="role" />
-              <label htmlFor="role">Role</label>
+              <input type="radio" name="role" id="role-option" />
+              <label htmlFor="role-option">Role</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="something" />
-              <label htmlFor="something">Some Developer</label>
+              <input type="radio" name="something" id="something-option" />
+              <label htmlFor="something-option">Some Developer</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="other" />
-              <label htmlFor="other">Other</label>
+              <input type="radio" name="other" id="other-option" />
+              <label htmlFor="other-option">Other</label>
             </span>
           </div>
           <div className={styles.message}>
-            <label htmlFor="message" className={styles.label}>
+            <label htmlFor={styles["text-area"]} className={styles.label}>
               Message
             </label>
             <textarea rows={5} name="message" id={styles["text-area"]} className={styles.input}>
@@ -96,12 +109,12 @@ export function ContactSection() {
           </div>
           <div className={styles.terms}>
             <span className={styles.term}>
-              <input type="checkbox" name="termsOne" />
-              <label htmlFor="termsOne">Accept Terms</label>
+              <input type="checkbox" name="termsOne" id="termsOne-checkbox" />
+              <label htmlFor="termsOne-checkbox">Accept Terms</label>
             </span>
             <span className={styles.term}>
-              <input type="checkbox" name="termsTwo" />
-              <label htmlFor="termsTwo">Accept Terms 2</label>
+              <input type="checkbox" name="termsTwo" id="termsTwo-checkbox" />
+              <label htmlFor="termsTwo-checkbox">Accept Terms 2</label>
             </span>
           </div>
           <span className={styles["button-container"]}>
