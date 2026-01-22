@@ -16,11 +16,13 @@ export function Menu() {
         <li className={styles["menu-item"]}>
           <a href="#site-map">Site Map</a>
         </li>
-        <select aria-label="Select Language">
-          <option value="en">Eng</option>
-          <option value="es">Spa</option>
-          <option value="fr">Fre</option>
-        </select>
+        <li>
+          <select aria-label="Select Language" style={{ width: 100 }}>
+            <option value="en">Eng</option>
+            <option value="es">Spa</option>
+            <option value="fr">Fre</option>
+          </select>
+        </li>
       </ul>
     </nav>
   );
