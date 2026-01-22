@@ -6,14 +6,13 @@ export function HeroSection() {
     <section className={styles.hero}>
       <div className={styles["text-container"]}>
         <h1 className={styles.title}>Welcome to the Hero Section</h1>
-        <h3 className={styles.subtitle}>
+        <h2 className={styles.subtitle}>
           This is where the main content of the hero section goes.
-        </h3>
+        </h2>
         <p className={styles.description}>
-          Discover amazing features and benefits. More details coming soon!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          officiis eos expedita libero dicta, hic ea vitae accusantium ut
-          consequatur aliquam non assumenda, omnis mollitia reiciendis ex
+          Discover amazing features and benefits. More details coming soon! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Dolores officiis eos expedita libero dicta, hic ea
+          vitae accusantium ut consequatur aliquam non assumenda, omnis mollitia reiciendis ex
           pariatur rem optio.
         </p>
         <button className={styles.button}>Buy Now</button>

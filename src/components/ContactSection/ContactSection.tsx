@@ -14,13 +14,17 @@ export function ContactSection() {
             </p>
             <ul className={styles.list}>
               <li className={styles["list-item"]}>
-                <FaFacebook size={24} /> +380 93 15 32 456
+                <FaFacebook size={24} /> <a href="callto:123456789">+123-456-789</a>
               </li>
               <li className={styles["list-item"]}>
-                <FaFacebook size={24} /> example@gmail.com
+                <FaFacebook size={24} />
+                <a href="mailto:platme.store@gmail.com">platme.store@gmail.com</a>
               </li>
               <li className={styles["list-item"]}>
-                <FaFacebook size={24} /> Pidmurma 5a, Lviv
+                <FaFacebook size={24} />
+                <a href="https://www.google.com/maps/place/Lviv,+Lviv+Oblast,+Ukraine,+79000/@49.8327706,23.9298355,12z/data=!4m15!1m8!3m7!1s0x473add7c09109a57:0x4223c517012378e2!2sLviv,+Lviv+Oblast,+Ukraine,+79000!3b1!8m2!3d49.839683!4d24.029717!16zL20vMGQ3X24!3m5!1s0x473add7c09109a57:0x4223c517012378e2!8m2!3d49.839683!4d24.029717!16zL20vMGQ3X24?entry=ttu&g_ep=EgoyMDI2MDExOS4wIKXMDSoASAFQAw%3D%3D">
+                  Lviv
+                </a>
               </li>
             </ul>
           </div>
@@ -79,11 +83,11 @@ export function ContactSection() {
           </div>
           <div className={styles.roles}>
             <span className={styles.role}>
-              <input type="radio" name="ui-dev" id="ui-dev-option" />
+              <input type="radio" name="role" id="ui-dev-option" />
               <label htmlFor="ui-dev-option">UI Developer</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="ui-ux" id="ui-ux-option" />
+              <input type="radio" name="role" id="ui-ux-option" />
               <label htmlFor="ui-ux-option">UI/UX Developer</label>
             </span>
             <span className={styles.role}>
@@ -91,11 +95,11 @@ export function ContactSection() {
               <label htmlFor="role-option">Role</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="something" id="something-option" />
+              <input type="radio" name="role" id="something-option" />
               <label htmlFor="something-option">Some Developer</label>
             </span>
             <span className={styles.role}>
-              <input type="radio" name="other" id="other-option" />
+              <input type="radio" name="role" id="other-option" />
               <label htmlFor="other-option">Other</label>
             </span>
           </div>

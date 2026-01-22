@@ -13,11 +13,7 @@ export function FooterSection() {
             Subscribe and be the first to know about our news and promotions.
           </p>
           <div className={styles["input-group"]}>
-            <input
-              type="email"
-              placeholder="example@gmail.com"
-              className={styles.input}
-            />
+            <input type="email" placeholder="example@gmail.com" className={styles.input} />
             <button className={styles["subscribe-button"]}>Subscribe</button>
           </div>
         </div>
@@ -36,7 +32,7 @@ export function FooterSection() {
           </li>
         </ul>
         <div className={styles.contacts}>
-          <h4 className={styles["contacts-title"]}>Contact</h4>
+          <h3 className={styles["contacts-title"]}>Contact</h3>
           <ul className={styles["contacts-info"]}>
             <li className={styles.phone}>
               <a href="callto:123456789">+123-456-789</a>
